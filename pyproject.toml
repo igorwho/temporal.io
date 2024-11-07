@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "temporal-io"
+version = "0.1.0"
+description = ""
+authors = ["Igor Felix <igor.felix@loggi.com>"]
+readme = "README.md"
+packages = [{include = "temporal"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+temporalio = "^1.8.0"
+confluent-kafka = "^2.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
